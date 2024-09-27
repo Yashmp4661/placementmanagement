@@ -34,7 +34,7 @@ public class YashwanthCertificateController {
 			Yashwanthcertificate certificate= service.get(id);
 			return new ResponseEntity<Yashwanthcertificate>(certificate,HttpStatus.OK);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+			
 			return new ResponseEntity<Yashwanthcertificate>(HttpStatus.NOT_FOUND);
 		}
 		
@@ -62,5 +62,8 @@ public class YashwanthCertificateController {
 	public void delete(@PathVariable Integer id) {
 		service.delete(id);
 	}
+	
+	
+	 
 
 }
