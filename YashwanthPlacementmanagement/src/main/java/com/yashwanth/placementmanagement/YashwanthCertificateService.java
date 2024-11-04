@@ -41,9 +41,11 @@ public class YashwanthCertificateService {
 		repository.deleteById(id);
 	}
 	
+	public List<Yashwanthcertificate> findByName(String name) {
+        return repository.findByName(name);
+    }
 	
 	
-
 	
 	
 
