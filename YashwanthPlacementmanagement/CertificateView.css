@@ -1,0 +1,55 @@
+.cer-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.cer-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+   align-self: center;
+  margin-top: 40px; /* Add space for the navbar */
+    margin-bottom: 30px;
+}
+
+.cer-card h2 {
+    margin-bottom: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cer-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cer-card input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+.cer-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #1738f7;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cer-button:hover {
+    background-color: #612cdd;
+  }

@@ -1,0 +1,73 @@
+.add-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.add-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+   
+  margin-top: 40px; /* Add space for the navbar */
+    margin-bottom: 30px;
+}
+
+.add-card h2 {
+    margin-bottom: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.add-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-card input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+.add-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #1738f7;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-button:hover {
+    background-color: #612cdd;
+  }
+  .description-box {
+    width: 90%;             /* Make the textarea full width of its container */
+    max-width: 500px;        /* Set a maximum width if you don't want it too wide */
+    height: 100px;           /* Set the height of the textarea */
+    padding: 10px;           /* Add padding inside the textarea */
+    font-size: 16px;         /* Increase the font size */
+    border: 1px solid #ddd;  /* Light border color */
+    border-radius: 5px;      /* Rounded corners */
+    resize: vertical;        /* Allow vertical resizing only */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a subtle effect */
+}
+
+.description-box:focus {
+    border-color: #6976f0; /* Change border color on focus */
+    outline: none;         /* Remove default outline */
+    box-shadow: 0px 4px 12px rgba(247, 166, 0, 0.3); /* Slightly stronger shadow on focus */
+}
+  

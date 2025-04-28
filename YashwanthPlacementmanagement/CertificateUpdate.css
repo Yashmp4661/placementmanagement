@@ -1,0 +1,19 @@
+
+  .description-box {
+    width: 90%;             /* Make the textarea full width of its container */
+    max-width: 500px;        /* Set a maximum width if you don't want it too wide */
+    height: 100px;           /* Set the height of the textarea */
+    padding: 10px;           /* Add padding inside the textarea */
+    font-size: 16px;         /* Increase the font size */
+    border: 1px solid #ddd;  /* Light border color */
+    border-radius: 5px;      /* Rounded corners */
+    resize: vertical;        /* Allow vertical resizing only */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a subtle effect */
+}
+
+.description-box:focus {
+    border-color: #6976f0; /* Change border color on focus */
+    outline: none;         /* Remove default outline */
+    box-shadow: 0px 4px 12px rgba(247, 166, 0, 0.3); /* Slightly stronger shadow on focus */
+}
+  

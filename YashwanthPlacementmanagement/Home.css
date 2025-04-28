@@ -1,0 +1,47 @@
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px; /* Adjust height as needed */
+  padding: 20px;
+  color: white;
+  background-image: url('./assets/cert.webp'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+}
+
+.text-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust overlay color and transparency */
+  z-index: 1;
+}
+
+.text-container h1,
+.text-container p,
+.text-container .buttons {
+  position: relative;
+  z-index: 2; /* Ensure text is above the overlay */
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Button color */
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttons button:hover {
+  background-color: #0056b3; /* Hover color */
+}

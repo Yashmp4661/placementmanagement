@@ -1,0 +1,31 @@
+/* Ensure the body and html are at full height */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Main content should take up the available space above the footer */
+  .content-wrapper {
+    flex: 1;
+    min-height: calc(100vh - 60px); /* Adjust for footer height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 14px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    position: relative;
+  }
